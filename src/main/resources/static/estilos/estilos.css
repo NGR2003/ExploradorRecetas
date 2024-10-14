@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilo para el nombre de la receta */
+.nombre {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Lista de ingredientes */
+.ingredientes-lista {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.ingredientes-lista li {
+    margin-bottom: 8px;
+    color: #34495e;
+}
+
+/* Estilo para mensajes de error */
+.error {
+    color: #e74c3c;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fce4e4;
+    border: 1px solid #e74c3c;
+    padding: 10px;
+    border-radius: 5px;
+}
